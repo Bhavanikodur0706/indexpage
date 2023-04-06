@@ -1,0 +1,32 @@
+{
+    "name": "NEXT ENGINEERING CONSULTANTS",
+    "short_name": "NEXT",
+    "description": "It is a consultancy Services",
+    "icons": [
+      {
+        "src": "/assests/imgs/icon.webp",
+        "sizes": "465x465",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assests/imgs/icon1.webp",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/imgs/icon2.webp",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#e38724",
+    "background_color": "#000000",
+    "purpose": "any maskable"
+  }
+  
+  
