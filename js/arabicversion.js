@@ -26,4 +26,13 @@ function translatePage(lang) {
             $(this).html(translatedText);
         });
     });
+    if (lang === 'ar') {
+            var menuBar = document.querySelector('.main_menu .navbar-expand-lg .navbar-nav');
+            menuBar.style.direction = 'rtl';
+    
+        } else {
+            var menuBar = document.querySelector('.main_menu .navbar-expand-lg .navbar-nav');
+            menuBar.style.direction = 'ltr';
+    
+        }
 }
