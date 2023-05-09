@@ -1,0 +1,575 @@
+/*media quuires home start*/
+@media only screen and (min-width: 1085px) and (max-width: 1200px) {
+    #navLogo {
+        padding: 0 15px;
+    }
+
+    #left_arrow img {
+        left: 25px;
+        ;
+    }
+
+    #right_arrow img {
+        right: 25px;
+        ;
+    }
+
+    .main_menu button.navbar-toggler {
+        background: #fff;
+        border: 0;
+    }
+
+    .main_menu button.navbar-toggler span {
+        color: #000000;
+        font-size: 24px;
+    }
+
+    .main_menu .navbar {
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (max-width: 1084px) {
+    #navLogo {
+        padding: 0 15px;
+    }
+
+    .main_menu button.navbar-toggler {
+        background: #fff;
+        border: 0;
+        border-radius: 3px;
+    }
+
+    .main_menu button.navbar-toggler span {
+        color: #000000;
+        font-size: 24px;
+    }
+
+    .main_menu .navbar {
+        justify-content: flex-end;
+    }
+
+    ul.navbar-nav.mb-2.mb-lg-0 {
+        position: fixed;
+        width: 230px;
+        right: 0;
+        background: #000000b3;
+        top: 81px;
+        z-index: 2;
+        margin: 18px 13px 25px 25px;
+    }
+
+    li.nav-item {
+        background: #000;
+        border: 1px solid #e38724;
+        border-radius: 3px;
+        margin-top: 4px;
+        z-index: 55;
+    }
+
+    #left_arrow img {
+        width: 28px;
+        left: 12px;
+    }
+
+    #right_arrow img {
+        width: 28px;
+        right: 12px;
+    }
+
+    #navLogo {
+        padding: 0 0;
+    }
+
+    .main_menu .navbar-light .navbar-nav .nav-link {
+        font-size: 12px;
+    }
+
+    .footer_social img {
+        width: 26px !important;
+    }
+
+    #footer img {
+        width: 15px;
+    }
+
+    #footer a {
+        font-size: 13px;
+    }
+
+    #footer {
+        padding: 0;
+    }
+
+    .polygon_banner_view {
+        position: fixed;
+        transform: rotate(359deg);
+        bottom: 6%;
+        width: 185%;
+    }
+
+    .main_home_about p .para2{
+        margin-left: 18px;
+        word-spacing: -4px;
+    }
+
+    .main_home_about p img {
+        margin-left: -18px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .main_menu a.navbar-brand {
+        display: none;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .main_menu button.navbar-toggler {
+        position: relative;
+        top: 10px;
+        z-index: 3;
+    }
+
+    .welcometext {
+        width: 100%;
+        left: 0;
+    }
+
+    .welcometext h1 {
+        font-size: 52px;
+        line-height: 48px;
+    }
+
+    span.welomeTo {
+        top: -15px;
+        right: 0px;
+        font-size: 30px;
+    }
+
+    .polygon_banner_view {
+        position: fixed;
+        transform: rotate(132deg);
+        bottom: 16%;
+        width: 100%;
+        left: 10%;
+    }
+
+    #bannerText .col-lg-6.col-7 {
+        width: 100%;
+    }
+
+    .ourservices {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    #footer .col-lg-7.col-6 {
+        width: 70%;
+    }
+
+    #footer .col-lg-5.col-6 {
+        width: 30%;
+    }
+
+    p.address_p {
+        margin-left: 21px;
+        margin-bottom: 12px;
+    }
+
+    p.address_p img {
+        margin-left: -20px;
+    }
+
+    .footer_social {
+        justify-content: flex-end;
+    }
+
+    .address_p a {
+        top: 0;
+    }
+
+    .website_link {
+        display: none;
+    }
+
+    ul.navbar-nav.mb-2.mb-lg-0 {
+        margin: 25px 13px 25px 25px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .welcometext {
+        width: 100%;
+        left: 0;
+    }
+
+    .polygon_banner_view {
+        transform: rotate(290deg);
+    }
+}
+
+/*media quuires home end*/
+
+/*media quuires menu Tab start*/
+@media only screen and (min-width: 992px) and (max-width: 1084px) {
+    .main_menu ul.navbar-nav.mb-2.mb-lg-0 {
+        position: initial;
+        width: auto;
+        background: transparent;
+    }
+
+    .main_menu ul.navbar-nav.mb-2.mb-lg-0 li.nav-item {
+        border: 0;
+    }
+
+    .main_menu ul.navbar-nav.mb-2.mb-lg-0 {
+        margin-top: 0;
+    }
+
+    .main_menu li.nav-item {
+        background: transparent;
+    }
+}
+
+/*media quuires menu Tab end*/
+
+/*media quuires about-us start*/
+@media only screen and (min-width: 1200px) and (max-width: 1324px) {
+    #left_arrow img {
+        width: 25px;
+        left: 21px;
+    }
+
+    #right_arrow img {
+        width: 25px;
+        right: 21px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #left_arrow img {
+        width: 25px;
+        left: 21px;
+    }
+
+    #right_arrow img {
+        width: 25px;
+        right: 21px;
+    }
+
+    .welcometext_about h1 {
+        font-size: 60px;
+        line-height: 52px;
+        letter-spacing: 2px;
+
+    }
+
+    section#main_header_abouts .welcometext_about {
+        left: 150px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #left_arrow img {
+        width: 36px;
+        left: 21px;
+    }
+
+    #right_arrow img {
+        width: 36px;
+        right: 21px;
+    }
+
+    #main_about_us .card .card-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #main_about_us h5.card-title {
+        left: 0;
+    }
+
+    #main_about_us span.card-text {
+        left: 0;
+    }
+
+    #left_arrow img {
+        left: 0;
+    }
+
+    #right_arrow img {
+        right: 0;
+    }
+
+    .main_content_about_us {
+        padding: 12% 7px 12% 30px;
+    }
+
+    #main_about_us {
+        margin-top: 0;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .welcometext_about {
+        position: initial;
+    }
+
+    .welcometext_about h1 {
+        text-align: center;
+        margin-top: -60px;
+        margin-bottom: 45px;
+        letter-spacing: 0px;
+    }
+
+    .clinet_main {
+        margin-top: 0 !important;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .welcometext_about {
+        position: initial;
+    }
+
+    .welcometext_about h1 {
+        text-align: center;
+        letter-spacing: 0px;
+    }
+
+    #main_header_abouts {
+        margin-top: 16px;
+    }
+
+    #main_about_us {
+        margin-top: 32px;
+    }
+
+    .main_content_about_us {
+        margin: 0;
+        /* word-spacing: -6px; */
+    }
+
+    #left_arrow img {
+        left: 0;
+    }
+
+    #right_arrow img {
+        right: 0;
+    }
+
+    #main_about_us .main_content_about_us p .para2 {
+        margin-bottom: 0;
+        /* color: #a7a9ac;
+        line-height: 18px;
+        text-align: justify;
+        font-size: 15px;
+        margin-bottom: 30px;
+        font-family: century gothic;
+        word-spacing: -4px; */
+
+    }
+
+    .sing_aboutus {
+        margin-bottom: 32px;
+    }
+
+    .clinets_page span.donew {
+        display: block;
+        line-height: 24px;
+    }
+}
+
+/*media quuires about-us end*/
+
+/*media quuires clients start*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    section.clinets_page .welcometext_about {
+        left: 60px;
+    }
+
+    .clinets_page .welcometext_about h1 {
+        font-size: 60px;
+        letter-spacing: -5px;
+    }
+
+    .clinets_logos_main .clinets_logos .row-cols-5>* {
+        flex: 0 0 auto;
+        width: 33.33%;
+    }
+
+    .clinets_logos {
+        max-height: initial;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .welcometext_about span.welcomeNext {
+        margin-left: 0;
+    }
+
+    .clinets_logos {
+        max-height: initial;
+    }
+
+    .clinets_logos_main .clinets_logos img.img-fluid {
+        padding: 7px;
+    }
+
+    .clinets_logos_main .clinets_logos .row .col {
+        margin-bottom: 21px;
+    }
+
+    .clinets_logos_main .clinets_logos .row-cols-4>* {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .clinet_main {
+        margin-top: 45px !important;
+    }
+
+}
+
+/*media quuires clients end*/
+
+/*media quuires contact-us start*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contact_us .address_tile h4 {
+        font-size: 12px;
+    }
+
+    .contact_us .address_tile_loc h5 {
+        font-size: 12px;
+    }
+
+    .contact_us .address_tile_loc p {
+        font-size: 12px;
+    }
+
+    #main_about_us.contact_us {
+        margin-top: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .contact_us .address_main li {
+        width: 100%;
+    }
+
+    .contact_us .address_tile {
+        padding: 0 35px 0 25px;
+    }
+
+    .contact_us+#footer {
+        margin-bottom: 15px;
+        padding-right: 15px;
+    }
+}
+
+/*media quuires contact-us end*/
+
+/*media quuires hotels start*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .list_hotels .row-cols-5>* {
+        width: 33.333%;
+    }
+    .list_hotels .row>*{
+        width: 50%;
+    }
+
+    /*media quuires hotels popup start*/
+    #exampleModal .modal-dialog.modal-dialog-centered.modal-xl #myCarousel {
+        max-width: calc(100% - 35px);
+    }
+
+    .hotel_id {
+        margin-top: 30px !important;
+    }
+
+
+    /*media quuires hotels popup end*/
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .list_hotels .row-cols-5>* {
+        width: 50%;
+    }
+    .list_hotels .row>*{
+        width:50%;
+    }
+
+    .list_hotels img.img-fluid {
+        height: 215px;
+    }
+
+    .hotel_id {
+        margin-top: 36px !important;
+    }
+
+    p.address_p {
+        margin-left: 10px;
+        margin-bottom: 10px
+    }
+
+    #exampleModal img.d-block.w-100 #myCarousel {
+        height: 375px;
+    }
+
+    /*media quuires hotels popup start*/
+    #exampleModal .modal-dialog.modal-dialog-centered.modal-xl #myCarousel {
+        max-width: calc(100% - 25px);
+    }
+
+    /*media quuires hotels popup end*/
+}
+
+/*media quuires hotels end*/
+
+/*media quuires portfolio2 start*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    section#main_slider_wwid {
+        margin: -65px 0 65px 0;
+
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    section#main_slider_wwid {
+        margin: 0 0 65px 0;
+    }
+
+    .portfolio_main .donew {
+        line-height: 18px;
+        display: block;
+    }
+
+    #main_slider_wwid .slick-next {
+        top: -32px;
+    }
+}
+
+/*media quuires portfolio2 end*/
+/* ovveride hotelpage */
+@media (max-width: 767px) {
+    #footer p.address_p {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .footer_social {
+        text-align: center;
+    }
+
+    .footer_social img {
+        max-width: 25px;
+        margin: 0 5px;
+        margin-left: 5%;
+    }
+}
